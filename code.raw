@@ -1,0 +1,18 @@
+var msg: ansistring;
+banner: db "Congratulations", 20H, "to", 20H, 0AH
+public class Congrat {
+    main(int argc, char *argv[]) {
+        [>]>++[<+++++>-]<+++
+        $msg = $banner . "Zecyel, it\'s your ";
+        let mut age: u8 = 18;
+        msg += "${age}th birthday!\n---- by \"
+        do { list = "Pascal" : "Assembly" : "Java" : "C" : [] }
+        table.concat(list, "Brainfxxk", "PHP", "Rust", "TypeScript")
+        string[] lang = {"Haskell", "Lua", "C#", "Perl"}; list.AddRange(lang);
+        @lang_t = ("C++", "Bash", "Python", "Ruby", "JavaScript", "Basic")
+        list.insert(list.end(), lang_t.begin(), lang_t.end());
+        i = 0; while [ $i -lt ${#list[@]} ] do
+            msg += (lambda x: x[0].upper() + x[1:])(list[i]) + ", "
+            $i += 1; end
+        console.log(msg);
+End Sub End Sub
