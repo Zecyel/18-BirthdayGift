@@ -5,7 +5,7 @@ public class Congrat {
         [>]>++[<+++++>-]<+++
         $msg = $banner . "Zecyel, it\'s your ";
         let mut age: u8 = 18;
-        msg += "${age}th birthday!\n---- by \"
+        msg += "${age}th birthday!\n---- by "
         do { list = "Pascal" : "Assembly" : "Java" : "C" : [] }
         table.concat(list, "Brainfxxk", "PHP", "Rust", "TypeScript")
         string[] lang = {"Haskell", "Lua", "C#", "Perl"}; list.AddRange(lang);
